@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Filter from './components/filter';
+import Filter from './components/Filter';
 import MovieList from './components/MovieList';
 import './App.css';
 
