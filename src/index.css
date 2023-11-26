@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: aquamarine;
 }
 
 code {
@@ -18,21 +19,23 @@ code {
 }
 
 .filter-cont {
-  margin: 30px;
-  margin-bottom: 50px;
+  margin: 20px;
+  margin-bottom: 400px;
 }
 
 .my-form {
-  margin: 30px;
-  width: 80%;
+  margin: 20px;
+  width: 50%;
+  border: skyblue;
 }
 
 .input-group {
 display: flex;
-justify-content: space-between;
-margin: 20px;
+justify-content:space-between;
+margin: 10px;
 }
 
 input {
-  width: 80%;
+  width: 50%;
+  margin: 30px;
 }

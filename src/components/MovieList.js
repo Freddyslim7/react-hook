@@ -1,10 +1,10 @@
 import MovieCard from "./MovieCard";
-import moviesObj from "../MoviesObj";
+import MoviesObj from "../MoviesObj";
 import React, { useState } from "react";
 import Filter from "./Filter";
 
 const MovieList = () => {
-    const [movies, setMovies] = useState(moviesObj);
+    const [movies, setMovies] = useState(MoviesObj);
     const [newMovie, setNewMovie] = useState('');
 
     const handleDelete = (key) => {
@@ -22,7 +22,7 @@ const MovieList = () => {
     };
 
     function handleFilter(search) {
-        let filteredMovie = movies.filter((value) =>
+        let filteredMovie = movies.Filter((value) =>
             value.title.toLowerCase().includes(search.toLowerCase())
         );
         setMovies(filteredMovie);
